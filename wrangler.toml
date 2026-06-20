@@ -19,3 +19,5 @@ binding = "OUTBOX"
 # 不需要主动消息可注释掉这两行。
 [triggers]
 crons = ["* * * * *"]
+# wrangler.toml
+name = 'nuojiji-relay'
